@@ -1,0 +1,130 @@
+
+.f_left {
+    float: left;
+}
+.f_right {
+    float: right;
+}
+.clear {
+    border: 0 none;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.more a {
+    color: #707070;
+    font: 1em/35px Tahoma,Verdana,Arial,sans-serif;
+    margin-right: 10px;
+}
+.more a:hover {
+    color: #ff832c;
+}
+#container {
+    margin: 0 auto;
+    width: 1002px;
+}
+#header {
+    background: rgba(0, 0, 0, 0) url(../img/top.png) repeat scroll 0 0;
+    height: 128px;
+    width: 1002px;
+}
+#logo {
+    float: left;
+}
+#english {
+    float: right;
+    margin: 6px 20px 0 0;
+}
+#english a {
+    color: #898989;
+    font: 11px/11px Tahoma,Verdana,Arial,sans-serif;
+}
+#english a:hover {
+    color: #ff832c;
+}
+#nav {
+    clear: both;
+}
+#nav ul {
+    float: left;
+    margin: 0 0 0 6px;
+}
+.nav_li {
+    float: left;
+    height: 37px;
+    margin-right: 2px;
+    width: 89px;
+}
+.nav_li a {
+    color: #363636;
+    display: block;
+    font: 1.5em/37px "微软雅黑","黑体",sans-serif;
+    height: 37px;
+    text-align: center;
+}
+.nav_li a:hover, .onhover {
+    background: #ff9532 url("nav_on.gif") repeat scroll 0 0;
+    color: #fff;
+}
+#li_index {
+    width: 84px;
+}
+#pro_tech {
+    width: 100px;
+}
+#keyword {
+    border: 0 none;
+    color: #b9b9b9;
+    float: left;
+    height: 16px;
+    margin: 11px 0 0 98px;
+    width: 195px;
+}
+#so {
+    margin: 11px 0 0 2px;
+}
+#banner {
+    margin: 6px 1px;
+}
+#main {
+    height: auto;
+    width: 1002px;
+}
+#bottom {
+    background: #f1f1f1 none repeat scroll 0 0;
+    height: 35px;
+    margin: 10px 0 0;
+    width: 1002px;
+}
+#bottom ul {
+    margin-left: 10px;
+}
+#bottom li {
+    float: left;
+    margin: 12px 10px 0 0;
+}
+#bottom li a {
+    color: #979797;
+    font-size: 1.2em;
+}
+#bottom li a:hover {
+    color: #ff832c;
+}
+#footer, #footer a {
+    color: #979797;
+    font: 1.2em/1.2em Arial,Tahoma;
+    margin: 9px 0 10px;
+}
+#footer a:hover {
+    color: #979797;
+    text-decoration: underline;
+}
+#footer .w3valid a {
+    color: #ff832c;
+    font: 1em/1em Arial,Tahoma;
+    margin-left: 10px;
+}
+#footer .w3valid a:hover {
+    color: #979797;
+    text-decoration: underline;
+}

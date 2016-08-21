@@ -1,0 +1,116 @@
+
+#left_bar {
+    float: left;
+    margin: 0 0 0 1px;
+    width: 694px;
+}
+#right_bar {
+    float: right;
+    width: 294px;
+}
+#big_title {
+    background: #e7e7e7 url("index_main_top_bg.gif") repeat-x scroll 0 0;
+    height: 36px;
+    width: 694px;
+}
+#big_title h1 {
+    color: #151515;
+    font: 1.6em/34px "微软雅黑","黑体",sans-serif;
+    margin: 0 0 0 10px;
+}
+.circle_nav {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+#four_service {
+    border: 1px solid #d9d9d9;
+    height: 416px;
+    padding-top: 10px;
+    width: 692px;
+}
+.every_service {
+    background: #eee url("core_service_bg.gif") repeat scroll 0 0;
+    float: left;
+    height: 198px;
+    margin: 0 10px 10px;
+    width: 326px;
+}
+.every_service h2 {
+    color: #a0a0a0;
+    font: 1.6em/16px "微软雅黑","黑体",sans-serif;
+    margin: 11px 0 0 12px;
+}
+.every_service img {
+    float: left;
+    height: 145px;
+    margin: 12px 0 0 14px;
+    width: 180px;
+}
+.every_service ul {
+    float: right;
+    margin: 10px 0;
+    width: 120px;
+}
+.every_service li {
+    background: rgba(0, 0, 0, 0) url("service_intro_bg.gif") no-repeat scroll 0 0;
+    color: #858585;
+    font: 1.2em/1.2em "宋体",serif;
+    height: 12px;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+.service_intro a {
+    color: #858585;
+}
+.service_intro a:hover {
+    text-decoration: underline;
+}
+.sub_title {
+    background: #e7e7e7 url("sub_bar_title_bg.gif") repeat scroll 0 0;
+    height: 36px;
+    width: 294px;
+}
+.sub_title h2 {
+    color: #151515;
+    float: left;
+    font: 14px/36px "微软雅黑","黑体",sans-serif;
+    margin: 0 0 0 40px;
+}
+.newlist {
+    background: #eee url("left_nav_bottom_bg.gif") no-repeat scroll center bottom;
+    margin: 1px 0 10px;
+    padding: 5px 0 6px;
+}
+.newlist li {
+    background: #eee none repeat scroll 0 0;
+    height: 29px;
+    width: 294px;
+}
+.newlist li a {
+    background: #eee url("article_head.gif") no-repeat scroll 0 0;
+    color: #808080;
+    display: block;
+    font: 12px/29px "宋体",serif;
+    height: 29px;
+    padding: 0 0 0 28px;
+    width: 266px;
+}
+.newlist li a:hover {
+    background: #eee url("article_on_bg.gif") no-repeat scroll 0 0;
+    color: #ff832c;
+}
+#contact_info {
+    background: #eee url("left_nav_bottom_bg.gif") no-repeat scroll center bottom;
+    color: #808080;
+    font: 1.2em/1.8em "宋体",serif;
+    margin: 1px 0 0;
+    padding: 20px 0 59px 20px;
+}
+#contact_info dt {
+    clear: left;
+    float: left;
+    width: 30px;
+}
+#nospam {
+    display: inline;
+}
